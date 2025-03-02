@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+<h1>Contact Me</h1>
+<form action="/contact" method="POST">
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT" />
+</form>
+<% if (locals.Name) { %>
+  <br><p style="padding: 8px;">Thank You <%= Name %>  , I will get in  touch with you shortly</p>
+  <% } %>
+
+<%- include("partials/footer.ejs") %>

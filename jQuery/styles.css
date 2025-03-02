@@ -1,0 +1,14 @@
+body{
+    background-color: blanchedalmond;
+}
+.bigtitle{
+    font-size: 10rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    font-size: 20rem;
+    color: yellow;
+    text-shadow: 20cm;
+}
